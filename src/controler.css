@@ -1,0 +1,29 @@
+.keypad{
+
+    max-width: 400px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(197, 197, 197);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    font-style: italic;
+    
+}
+.key{
+    background-color: rgb(243, 243, 243);
+    border: 2px solid black;
+    border-radius: 5px;  
+    font-size: 20px;
+    text-align: center;
+    
+}
+.key:hover{
+    color: antiquewhite;
+    background-color: beige;
+}
